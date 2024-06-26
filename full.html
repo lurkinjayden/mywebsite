@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>dollandlurk.in</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="lurkin">
+    <meta property="og:description" content="&quot;why inject no work&quot;">
+    <meta name="theme-color" data-react-helmet="true" content="#2B2D31">
+    <link rel="stylesheet" type="text/css" href="a.css">
+</head>
+
+<body data-current-gif="scizor.gif">
+    <audio id="song" src="song.mp3" autoplay="" loop=""></audio>
+
+    <div class="buttons-container" id="enter-container">
+        <button onclick="startPage()" data-gif="scizor.gif">Enter</button>
+    </div>
+
+    <div class="buttons-container" id="main-container">
+        <button onclick="startHome()" data-gif="scizor.gif">Home</button>
+        <button onclick="startAbout()" data-gif="scizor.gif">About</button>
+        <button data-gif="scizor.gif">Discord</button>
+    </div>
+
+    <div class="background">
+        <div class="ascii-image" id="image">
+            <img id="random-gif" src="scizor.gif">
+        </div>
+
+        <div class="full-page-overlay">
+            <img src="fake-ascii.png">
+        </div>
+    </div>
+    <div class="text-container">
+        <p class="display-text"></p>
+    </div>
+
+    <div class="snowflakes"><div class="snowflake" style="left: 303.302px; top: 939.5px;">❄</div><div class="snowflake" style="left: 725.038px; top: 921px;">❄</div><div class="snowflake" style="left: 305.498px; top: 909px;">❄</div><div class="snowflake" style="left: 96.7631px; top: 898px;">❄</div><div class="snowflake" style="left: 212.982px; top: 887px;">❄</div><div class="snowflake" style="left: 705.694px; top: 875.5px;">❄</div><div class="snowflake" style="left: 241.698px; top: 865.5px;">❄</div><div class="snowflake" style="left: 550.125px; top: 849px;">❄</div><div class="snowflake" style="left: 215.859px; top: 825px;">❄</div><div class="snowflake" style="left: 807.751px; top: 800.5px;">❄</div><div class="snowflake" style="left: 1162.09px; top: 789px;">❄</div><div class="snowflake" style="left: 528.66px; top: 779px;">❄</div><div class="snowflake" style="left: 189.221px; top: 768px;">❄</div><div class="snowflake" style="left: 695.418px; top: 751px;">❄</div><div class="snowflake" style="left: 34.5656px; top: 733.5px;">❄</div><div class="snowflake" style="left: 1236.61px; top: 714px;">❄</div><div class="snowflake" style="left: 1225.15px; top: 697.5px;">❄</div><div class="snowflake" style="left: 184.36px; top: 679.5px;">❄</div><div class="snowflake" style="left: 452.34px; top: 663.5px;">❄</div><div class="snowflake" style="left: 163.297px; top: 641.5px;">❄</div><div class="snowflake" style="left: 1117.89px; top: 617px;">❄</div><div class="snowflake" style="left: 611.81px; top: 601.5px;">❄</div><div class="snowflake" style="left: 37.6987px; top: 587px;">❄</div><div class="snowflake" style="left: 1049.74px; top: 571.5px;">❄</div><div class="snowflake" style="left: 820.778px; top: 552.5px;">❄</div><div class="snowflake" style="left: 220.994px; top: 535px;">❄</div><div class="snowflake" style="left: 1077.43px; top: 515px;">❄</div><div class="snowflake" style="left: 1202.36px; top: 495.5px;">❄</div><div class="snowflake" style="left: 1214.59px; top: 477.5px;">❄</div><div class="snowflake" style="left: 1340.81px; top: 463.5px;">❄</div><div class="snowflake" style="left: 1281.8px; top: 453px;">❄</div><div class="snowflake" style="left: 357.231px; top: 442.5px;">❄</div><div class="snowflake" style="left: 526.766px; top: 426px;">❄</div><div class="snowflake" style="left: 1344.88px; top: 402px;">❄</div><div class="snowflake" style="left: 930.732px; top: 381.5px;">❄</div><div class="snowflake" style="left: 784.625px; top: 364.5px;">❄</div><div class="snowflake" style="left: 971.933px; top: 350.5px;">❄</div><div class="snowflake" style="left: 821.606px; top: 335px;">❄</div><div class="snowflake" style="left: 81.8026px; top: 314px;">❄</div><div class="snowflake" style="left: 393.816px; top: 302.5px;">❄</div><div class="snowflake" style="left: 1076.91px; top: 283.5px;">❄</div><div class="snowflake" style="left: 615.094px; top: 261px;">❄</div><div class="snowflake" style="left: 1137.37px; top: 236px;">❄</div><div class="snowflake" style="left: 83.8825px; top: 214px;">❄</div><div class="snowflake" style="left: 545.928px; top: 191px;">❄</div><div class="snowflake" style="left: 474.421px; top: 170.5px;">❄</div><div class="snowflake" style="left: 816.064px; top: 154px;">❄</div><div class="snowflake" style="left: 689.685px; top: 139.5px;">❄</div><div class="snowflake" style="left: 65.6054px; top: 120px;">❄</div><div class="snowflake" style="left: 727.946px; top: 97.5px;">❄</div><div class="snowflake" style="left: 281.928px; top: 73.5px;">❄</div><div class="snowflake" style="left: 306.486px; top: 73.5px;">❄</div><div class="snowflake" style="left: 775.616px; top: 61px;">❄</div><div class="snowflake" style="left: 356.519px; top: 39px;">❄</div><div class="snowflake" style="left: 1304.01px; top: 25.5px;">❄</div><div class="snowflake" style="left: 805.184px; top: 9.5px;">❄</div></div>
+
+    <script src="snowflakes.js"></script>
+    <script src="index.js"></script>
+
+
+</body></html>
+<body data-current-gif="scizor.gif">
+    <audio id="song" src="song.mp3" autoplay="" loop=""></audio>
+
+    <div class="buttons-container" id="enter-container">
+        <button onclick="startPage()" data-gif="scizor.gif">Enter</button>
+    </div>
+
+    <div class="buttons-container" id="main-container">
+        <button onclick="startHome()" data-gif="scizor.gif">Home</button>
+        <button onclick="startAbout()" data-gif="scizor.gif">About</button>
+        <button data-gif="scizor.gif">Discord</button>
+    </div>
+
+    <div class="background">
+        <div class="ascii-image" id="image">
+            <img id="random-gif" src="scizor.gif">
+        </div>
+
+        <div class="full-page-overlay">
+            <img src="/fake-ascii.png">
+        </div>
+    </div>
+
+    <div class="text-container">
+        <p class="display-text"></p>
+    </div>
+
+    <div class="snowflakes"><div class="snowflake" style="left: 1049.74px; top: 939.5px;">❄</div><div class="snowflake" style="left: 820.778px; top: 920.5px;">❄</div><div class="snowflake" style="left: 220.994px; top: 903px;">❄</div><div class="snowflake" style="left: 1077.43px; top: 883px;">❄</div><div class="snowflake" style="left: 1202.36px; top: 863.5px;">❄</div><div class="snowflake" style="left: 1214.59px; top: 845.5px;">❄</div><div class="snowflake" style="left: 1340.81px; top: 831.5px;">❄</div><div class="snowflake" style="left: 1281.8px; top: 821px;">❄</div><div class="snowflake" style="left: 357.231px; top: 810.5px;">❄</div><div class="snowflake" style="left: 526.766px; top: 794px;">❄</div><div class="snowflake" style="left: 1344.88px; top: 770px;">❄</div><div class="snowflake" style="left: 930.732px; top: 749.5px;">❄</div><div class="snowflake" style="left: 784.625px; top: 732.5px;">❄</div><div class="snowflake" style="left: 971.933px; top: 718.5px;">❄</div><div class="snowflake" style="left: 821.606px; top: 703px;">❄</div><div class="snowflake" style="left: 81.8026px; top: 682px;">❄</div><div class="snowflake" style="left: 393.816px; top: 670.5px;">❄</div><div class="snowflake" style="left: 1076.91px; top: 651.5px;">❄</div><div class="snowflake" style="left: 615.094px; top: 629px;">❄</div><div class="snowflake" style="left: 1137.37px; top: 604px;">❄</div><div class="snowflake" style="left: 83.8825px; top: 582px;">❄</div><div class="snowflake" style="left: 545.928px; top: 559px;">❄</div><div class="snowflake" style="left: 474.421px; top: 538.5px;">❄</div><div class="snowflake" style="left: 816.064px; top: 522px;">❄</div><div class="snowflake" style="left: 689.685px; top: 507.5px;">❄</div><div class="snowflake" style="left: 65.6054px; top: 488px;">❄</div><div class="snowflake" style="left: 727.946px; top: 465.5px;">❄</div><div class="snowflake" style="left: 281.928px; top: 441.5px;">❄</div><div class="snowflake" style="left: 306.486px; top: 441.5px;">❄</div><div class="snowflake" style="left: 775.616px; top: 429px;">❄</div><div class="snowflake" style="left: 356.519px; top: 407px;">❄</div><div class="snowflake" style="left: 1304.01px; top: 393.5px;">❄</div><div class="snowflake" style="left: 805.184px; top: 377.5px;">❄</div><div class="snowflake" style="left: 305.155px; top: 364.5px;">❄</div><div class="snowflake" style="left: 1036.52px; top: 340px;">❄</div><div class="snowflake" style="left: 1243.83px; top: 333.5px;">❄</div><div class="snowflake" style="left: 1109.28px; top: 310.5px;">❄</div><div class="snowflake" style="left: 1013.79px; top: 290px;">❄</div><div class="snowflake" style="left: 65.2756px; top: 267.5px;">❄</div><div class="snowflake" style="left: 493.169px; top: 258.5px;">❄</div><div class="snowflake" style="left: 903.357px; top: 246.5px;">❄</div><div class="snowflake" style="left: 1136.09px; top: 232px;">❄</div><div class="snowflake" style="left: 3.89789px; top: 215.5px;">❄</div><div class="snowflake" style="left: 1349.22px; top: 192.5px;">❄</div><div class="snowflake" style="left: 1204.08px; top: 168.5px;">❄</div><div class="snowflake" style="left: 1004.05px; top: 144.5px;">❄</div><div class="snowflake" style="left: 837.748px; top: 120px;">❄</div><div class="snowflake" style="left: 1160.57px; top: 96px;">❄</div><div class="snowflake" style="left: 891.68px; top: 73.5px;">❄</div><div class="snowflake" style="left: 708.432px; top: 66.5px;">❄</div><div class="snowflake" style="left: 1004.05px; top: 44px;">❄</div><div class="snowflake" style="left: 834.388px; top: 29.5px;">❄</div><div class="snowflake" style="left: 1055.4px; top: 18px;">❄</div><div class="snowflake" style="left: 1133.8px; top: 7.5px;">❄</div></div>
+
+    <script src="scripts/snowflakes.js"></script>
+    <script src="scripts/index.js"></script>
+
+
+</body>
+<html lang="en"><head>
+    <title>lurkin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="lurkin">
+    <meta property="og:description" content="&quot;why inject no work&quot;">
+    <meta name="theme-color" data-react-helmet="true" content="#2B2D31">
+    <link rel="stylesheet" type="text/css" href="a.css">
+</head>
+
+<body data-current-gif="scizor.gif">
+    <audio id="song" src="song.mp3" autoplay="" loop=""></audio>
+
+    <div class="buttons-container" id="enter-container">
+        <button onclick="startPage()" data-gif="scizor.gif">Enter</button>
+    </div>
+
+    <div class="buttons-container" id="main-container">
+        <button onclick="startHome()" data-gif="scizor.gif">Home</button>
+        <button onclick="startAbout()" data-gif="scizor.gif">About</button>
+        <button data-gif="scizor.gif">Discord</button>
+    </div>
+
+    <div class="background">
+        <div class="ascii-image" id="image">
+            <img id="random-gif" src="scizor.gif">
+        </div>
+
+        <div class="full-page-overlay">
+            <img src="fake-ascii.png">
+        </div>
+    </div>
+
+    <div class="text-container">
+        <p class="display-text"></p>
+    </div>
+
+    <div class="snowflakes"><div class="snowflake" style="left: 1214.59px; top: 938.5px;">❄</div><div class="snowflake" style="left: 1340.81px; top: 924.5px;">❄</div><div class="snowflake" style="left: 1281.8px; top: 914px;">❄</div><div class="snowflake" style="left: 357.231px; top: 903.5px;">❄</div><div class="snowflake" style="left: 526.766px; top: 887px;">❄</div><div class="snowflake" style="left: 1344.88px; top: 863px;">❄</div><div class="snowflake" style="left: 930.732px; top: 842.5px;">❄</div><div class="snowflake" style="left: 784.625px; top: 825.5px;">❄</div><div class="snowflake" style="left: 971.933px; top: 811.5px;">❄</div><div class="snowflake" style="left: 821.606px; top: 796px;">❄</div><div class="snowflake" style="left: 81.8026px; top: 775px;">❄</div><div class="snowflake" style="left: 393.816px; top: 763.5px;">❄</div><div class="snowflake" style="left: 1076.91px; top: 744.5px;">❄</div><div class="snowflake" style="left: 615.094px; top: 722px;">❄</div><div class="snowflake" style="left: 1137.37px; top: 697px;">❄</div><div class="snowflake" style="left: 83.8825px; top: 675px;">❄</div><div class="snowflake" style="left: 545.928px; top: 652px;">❄</div><div class="snowflake" style="left: 474.421px; top: 631.5px;">❄</div><div class="snowflake" style="left: 816.064px; top: 615px;">❄</div><div class="snowflake" style="left: 689.685px; top: 600.5px;">❄</div><div class="snowflake" style="left: 65.6054px; top: 581px;">❄</div><div class="snowflake" style="left: 727.946px; top: 558.5px;">❄</div><div class="snowflake" style="left: 281.928px; top: 534.5px;">❄</div><div class="snowflake" style="left: 306.486px; top: 534.5px;">❄</div><div class="snowflake" style="left: 775.616px; top: 522px;">❄</div><div class="snowflake" style="left: 356.519px; top: 500px;">❄</div><div class="snowflake" style="left: 1304.01px; top: 486.5px;">❄</div><div class="snowflake" style="left: 805.184px; top: 470.5px;">❄</div><div class="snowflake" style="left: 305.155px; top: 457.5px;">❄</div><div class="snowflake" style="left: 1036.52px; top: 433px;">❄</div><div class="snowflake" style="left: 1243.83px; top: 426.5px;">❄</div><div class="snowflake" style="left: 1109.28px; top: 403.5px;">❄</div><div class="snowflake" style="left: 1013.79px; top: 383px;">❄</div><div class="snowflake" style="left: 65.2756px; top: 360.5px;">❄</div><div class="snowflake" style="left: 493.169px; top: 351.5px;">❄</div><div class="snowflake" style="left: 903.357px; top: 339.5px;">❄</div><div class="snowflake" style="left: 1136.09px; top: 325px;">❄</div><div class="snowflake" style="left: 3.89789px; top: 308.5px;">❄</div><div class="snowflake" style="left: 1349.22px; top: 285.5px;">❄</div><div class="snowflake" style="left: 1204.08px; top: 261.5px;">❄</div><div class="snowflake" style="left: 1004.05px; top: 237.5px;">❄</div><div class="snowflake" style="left: 837.748px; top: 213px;">❄</div><div class="snowflake" style="left: 1160.57px; top: 189px;">❄</div><div class="snowflake" style="left: 891.68px; top: 166.5px;">❄</div><div class="snowflake" style="left: 708.432px; top: 159.5px;">❄</div><div class="snowflake" style="left: 1004.05px; top: 137px;">❄</div><div class="snowflake" style="left: 834.388px; top: 122.5px;">❄</div><div class="snowflake" style="left: 1055.4px; top: 111px;">❄</div><div class="snowflake" style="left: 1133.8px; top: 100.5px;">❄</div><div class="snowflake" style="left: 1248.19px; top: 85px;">❄</div><div class="snowflake" style="left: 694.736px; top: 71px;">❄</div><div class="snowflake" style="left: 84.7385px; top: 62.5px;">❄</div><div class="snowflake" style="left: 296.032px; top: 39px;">❄</div><div class="snowflake" style="left: 1288.27px; top: 25.5px;">❄</div><div class="snowflake" style="left: 300.275px; top: 16px;">❄</div><div class="snowflake" style="left: 287.852px; top: 5px;">❄</div></div>
+
+    <script src="snowflakes.js"></script>
+    <script src="index.js"></script>
+
+
+
+</body></html>
+
+
